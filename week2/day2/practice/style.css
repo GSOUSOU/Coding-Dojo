@@ -1,0 +1,37 @@
+.button {
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 18px;
+    color: white;
+  }
+  .button1{
+    height: 30px;
+	  width: 150px;
+    border-radius: 25px;
+    border: 1px solid aqua;
+    background-color:whitesmoke;
+    color:aqua!important;
+    font-weight : bold;
+     
+
+  }
+
+  .button2 {
+    background-color:rgb(47, 189, 141);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+ } 
+ .button3 {
+
+    background-color:blue;
+    box-shadow:3px 3px black;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+
+}
