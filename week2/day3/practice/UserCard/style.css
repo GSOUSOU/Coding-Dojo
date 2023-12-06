@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+  .container {
+      width: 600px;
+      height: 350px;
+      background-color:white;
+      margin: 60px;
+      border: 2px solid lightgray;
+    
+    }
+                  /***** image box and  user image style ****/
+
+  .image_box{
+    background-color: rgb(20, 182, 182);
+    width: 100%;
+    position: relative;
+    height: 60px;
+    
+  }
+  .image_box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+    position: absolute;
+    bottom: -30px;
+    left: 16px;
+  }
+    /***** ********* second box style : this box has many boxes  ******** ****/ 
+  .content_box {
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .content_box h1,p {
+  text-align:left;
+  padding: 10px 0px;
+}
+
+  
+                      /******** location  box and  map_marker  style *********/
+.location_box{
+  display: flex;
+  justify-content:start;
+  align-items:center;
+  margin-bottom: 10px;
+}
+.location_box img {
+  width: 20px;
+  height: 20px;
+margin-right:20px ;
+margin-left:10px ;
+  
+}
+                      /******** link box   box and  gear image  style *********/
+ .link_box{
+  display: flex;
+  justify-content:start;
+  align-items:center;
+  margin-bottom: 10px;
+ } 
+ .link_box img {
+  width: 20px;
+  height: 20px;
+  margin-right:10px ;
+
+ 
+}
+ 
