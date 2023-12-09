@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+}
+
+.top {
+    background-color:lightgrey;
+    margin-left: 70px;
+    margin-right: 70px;
+ 
+}
+.nav {
+    
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-elements {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-title {
+    color:black;
+}
+input[type=text] {
+    width: 50%;
+    height: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    /*font-family: monospace;
+    font-size: 16px;
+    font-weight:bold  ;*/
+  }
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color:blue;
+    color: #ffffff;
+    border: 2px solid black ;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.main-container {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.content {
+    
+    display: flex;  
+    gap:40px;
+    padding-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    justify-content: center;
+}
+/*.row{
+    flex: 2;
+}*/
+.card , .rightcard{
+    
+    border: 2pX SOLID black ;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+.col-2{
+    width: 50%;
+
+}
+.noun , right{
+    width: 40%;
+    padding: 10px;
+    margin-left: 25px;
+    
+    
+}
+.noun p ,
+.noun h2{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.types{
+    margin-left: 10px;
+}
+.noun >p{
+    font-size: 0.7rem;
+}
+p{
+    font-weight: bold;  
+}
+.card-def{
+    color:#008cff;
+    text-decoration: underline;
+}
+.likebtn {
+    height: 35px;
+    width: 100px;
+    background-color:yellow;
+    color:black;
+    border: 2px solid black ;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rightcard{
+    padding-left:30px ;
+  
+
+    height: 150px;
+    width: 200px;
+}
+.right >p{
+font-size:16PX;
+}
+#you{
+   font-weight: bolder;
+   color:black;
+   text-decoration:none;
+}
+#add-def {
+    height: 35px;
+    width: 150px;
+    background-color:green;
+    color:black;
+    border: 2px solid black ;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
