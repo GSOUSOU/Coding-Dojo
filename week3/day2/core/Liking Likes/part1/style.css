@@ -1,0 +1,39 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+    font-weight: bold;
+}
+.card{
+    border: 3px solid black;
+    width: 400px;;
+    margin-left:100px ;
+    margin-top: 60px;
+}
+.row{ 
+    display:flex;
+    padding-left: 5px;
+    justify-content: space-around;
+
+}
+.countlikes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btnlikes {
+    height: 35px;
+    width: 80px;
+    background-color:rgb(201, 201, 11);
+    color:black;
+    border: 3px solid black ;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+.bottompart{
+    padding-left: 20px; 
+}
