@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header_container">
+        <div>
+            <h1 class="nav-title">
+               DojoWeather
+            </h1>
+            <ul class="nav-links">
+                <li onclick="popup()"><a href="#">Burbank</a></li>
+                <li onclick="popup()"><a href="#">Chicago</a></li>
+                <li onclick="popup()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main_container">
+        <div  class="content" >
+            <div class="top">
+                <h2>San Jose</h2>
+                <div class="temperature">
+                    <span> show temperature in</span>
+                    <select onchange="changetemperature(this)">
+                    <option value="Celsus">°C |</option>
+                    <option value="Fahrenheit"> F |</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="Card 1 Image" class="iconw">
+                    <div class="card_bottom">
+                        <h5>some rain</h5>
+                        <div>
+                            <span class="rouge" id="temp1">24°</span>
+                            <span class="bleu" id="temp2">18°</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="Card 1 Image" class="iconw">
+                    <div class="card_bottom">
+                        <h5>some rain</h5>
+                        <div>
+                            <span class="rouge" id="temp3">27°</span>
+                            <span class="bleu" id="temp4">19°</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="Card 1 Image" class="iconw">
+                    <div class="card_bottom">
+                        <h5>some clouds</h5>
+                        <div>
+                            <span class="rouge" id="temp5">21°</span>
+                            <span class="bleu" id="temp6">16°</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="Card 2 Image" class="iconw">
+                    <div class="card_bottom">
+                        <h5>some Sun</h5>
+                        <div>
+                            <span class="rouge" id="temp7">26°</span>
+                            <span class="bleu" id="temp8">21°</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="cookie">
+                <img src="assets/cookie.png" alt="Card 2 Image" class="imgcookie">
+                <div class ="stop">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize <br>
+                       content and ads, to provide social media features and to <br>
+                       analyse our traffic. <span> <a href="#">Read more</a></span>
+                    </p>
+                </div>
+                <button class="btn" onclick="msgremove()"> I Accept</button>
+
+                
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

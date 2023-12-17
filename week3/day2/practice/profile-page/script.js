@@ -9,17 +9,19 @@ function editProfile(){
     userimg.src = "images/todd-s.jpg" ;  
 }
 
+var requestspan=document.querySelector("#request");
+var connectionspan=document.querySelector("#connection");
 
+function accept(id) {
+    var element = document.querySelector(id);
+    element.remove();
+    requestspan.innerText--;
+    connectionspan.innerText++;
+}
 
-// removing from connection requests by clicking to the check or x button
-
-var spans = [
-    document.querySelector(".card-list-item0"),
-    document.querySelector(".card-list-item1"),
-   
-];
-
-function removeRequest(id) {
-    spans[id].remove();
-  }
+function ignore(id) {
+    var element = document.querySelector(id);
+    element.remove();
+    requestspan.innerText--;
+}
 
